@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8942991328318658059}
   - component: {fileID: 1462115981532717602}
   - component: {fileID: 3498409981221860355}
+  - component: {fileID: 8187874953831787058}
   m_Layer: 0
   m_Name: Node
   m_TagString: Untagged
@@ -32,7 +33,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &8942991328318658059
 MeshFilter:
@@ -97,3 +98,17 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &8187874953831787058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8351363797466865986}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9cda61d392148e845b4f7f66511c1501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverColor: {r: 0.3679245, g: 0.3679245, b: 0.3679245, a: 0}
+  positionOffset: {x: 0, y: 0.5, z: 0}
